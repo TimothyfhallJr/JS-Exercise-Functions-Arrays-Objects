@@ -99,9 +99,15 @@ console.log(temperatureInF(46));
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
+function makePersonObject(/* code here */id, name, email) {
   /* code here */
-}
+    let identity = {
+      id: id,
+      name: name,
+      email: email,
+    }
+    return (identity);
+  }
 
 /**
  * ### Challenge `getName`
